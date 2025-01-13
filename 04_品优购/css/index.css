@@ -1,0 +1,329 @@
+/* ============nav导航模块============ */
+.nav {
+  height: 47px;
+  border-bottom: 2px solid #b1191a;
+  margin-top: 24px;
+}
+
+.pulldown {
+  float: left;
+  position: relative;
+  width: 209px;
+  height: 45px;
+  background-color: #b1191a;
+  color: #ffffff;
+}
+
+.pulldown h3 {
+  height: 45px;
+  line-height: 45px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pulldown ul {
+  position: absolute;
+  top: 47px;
+  width: 100%;
+  height: 466px;
+  background-color: #c81623;
+  font-size: 14px;
+}
+
+.pulldown ul li {
+  height: 31px;
+  line-height: 31px;
+}
+
+.pulldown ul li a {
+  display: inline-block;
+  width: 100%;
+  padding-left: 12px;
+  color: #ffffff;
+}
+
+.pulldown ul li a::after {
+  float: right;
+  margin: 2px 11px;
+  content: '\e920';
+  font-family: 'icomoon';
+}
+
+.pulldown ul li a:hover {
+  margin-left: 1px;
+  padding-left: 11px;
+  background-color: #f7f7f7;
+  color: #c81623;
+}
+
+.guidance {
+  float: left;
+  margin-left: 10px;
+}
+
+.guidance ul li {
+  float: left;
+  margin: 0 24px;
+}
+
+.guidance ul li a {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  color: #333333;
+  font-size: 16px;
+}
+
+/* ============banner轮播图模块============ */
+.main {
+  float: left;
+  height: 456px;
+  margin: 10px 0 0 219px;
+}
+
+.banner {
+  float: left;
+}
+
+.module {
+  float: right;
+  width: 250px;
+  margin-left: 9px;
+}
+
+.news {
+  height: 164px;
+  border: 1px solid #e4e4e4;
+}
+
+.news h5 {
+  height: 32px;
+  border-bottom: 1px dotted #e4e4e4;
+  padding-left: 15px;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+.more {
+  float: right;
+  margin-right: 14px;
+}
+
+.more::after {
+  padding-left: 7px;
+  content: '\e920';
+  font-family: 'icomoon';
+}
+
+.news ul {
+  height: 130px;
+  padding: 5px 0 0 15px;
+  font-size: 12px;
+}
+
+.news ul li {
+  height: 24px;
+  line-height: 24px;
+}
+
+.news ul li a span {
+  margin-right: 5px;
+  font-weight: 700;
+}
+
+.card {
+  width: 250px;
+  height: 210px;
+  overflow: hidden;
+  border-right: 1px solid #e4e4e4;
+}
+
+.card ul {
+  width: 253px;
+  margin-left: 1px;
+}
+
+.card ul li {
+  float: left;
+  width: 64px;
+  height: 71px;
+  background: url(../images/icons.png) no-repeat;
+  border: 1px solid #e4e4e4;
+  margin: -1px 0 0 -1px;
+}
+
+.card ul li:nth-child(2) {
+  background-position: -62px 0;
+}
+
+.card ul li:nth-child(3) {
+  background-position: -124px 0;
+}
+
+.card ul li:nth-child(4) {
+  background-position: -186px 0;
+}
+
+.card ul li:nth-child(5) {
+  background-position: 0 -68px;
+}
+
+.card ul li:nth-child(6) {
+  background-position: -62px -68px;
+}
+
+.card ul li:nth-child(7) {
+  background-position: -124px -68px;
+}
+
+.card ul li:nth-child(8) {
+  background-position: -186px -68px;
+}
+
+.card ul li:nth-child(9) {
+  background-position: 0 -136px;
+}
+
+.card ul li:nth-child(10) {
+  background-position: -62px -136px;
+}
+
+.card ul li:nth-child(11) {
+  background-position: -124px -136px;
+}
+
+.card ul li:nth-child(12) {
+  background-position: -186px -136px;
+}
+
+.card ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.bargain {
+  width: 250px;
+  height: 75px;
+  margin-top: 5px;
+  background-color: pink;
+}
+
+.bargain img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ============今日推荐模块============ */
+.recommend {
+  height: 163px;
+  margin-top: 11px;
+}
+
+.recommend-left {
+  float: left;
+  width: 206px;
+  height: 100%;
+  background: #5c5251 url(../images/recom.png) no-repeat center;
+}
+
+.recommend-right {
+  float: left;
+  width: 994px;
+  height: 100%;
+  background-color: #ebebeb;
+  padding: 10px 0;
+}
+
+.recommend-right a {
+  float: left;
+  width: calc(994px/4);
+  height: 143px;
+  border-right: 1px solid #dddddd;
+  margin: auto 0;
+}
+
+.recommend-right a:nth-child(1) {
+  background: url(../upload/recom_03.jpg) no-repeat center;
+}
+
+.recommend-right a:nth-child(2) {
+  background: url(../upload/recom_03.jpg) no-repeat center;
+}
+
+.recommend-right a:nth-child(3) {
+  background: url(../upload/recom_03.jpg) no-repeat center;
+}
+
+.recommend-right a:nth-child(4) {
+  background: url(../upload/recom_03.jpg) no-repeat center;
+}
+
+/* ============猜你喜欢模块============ */
+.favorite {
+  margin-top: 31px;
+}
+
+.favorite-title h5 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.favorite-title .refresh {
+  float: right;
+  margin-right: 20px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.refresh a {
+  display: inline-block;
+}
+
+.refresh span::after {
+  margin-left: 9px;
+  content: '\ea2e';
+  font-family: 'icomoon';
+}
+
+.favorite-content {
+  height: 233px;
+  margin-top: 10px;
+}
+
+.favorite-card {
+  float: left;
+  width: 200px;
+  height: 100%;
+  background-size: 160px 141px;
+}
+
+.favorite-card img {
+  display: block;
+  width: 160px;
+  height: 141px;
+  margin: 14px auto 0 auto;
+}
+
+.favorite-card .content {
+  margin: 9px 37px 0 37px;
+}
+
+.favorite-card .desc {
+  color: #666666;
+  font-size: 12px;
+}
+
+.favorite-card .price {
+  margin-top: 8px;
+  color: #df3033;
+  font: 14px 'MicrosoftYaHei';
+  font-weight: 700;
+}

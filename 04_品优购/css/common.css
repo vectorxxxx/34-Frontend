@@ -64,7 +64,7 @@
 /* ============header头部模块============ */
 .header {
   height: 61px;
-  padding: 23px 0;
+  margin-top: 23px;
 }
 
 .header .logo a {
