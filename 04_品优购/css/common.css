@@ -145,3 +145,143 @@
   font-family: 'icomoon';
   color: #999999;
 }
+
+/* ============关于我们模块============ */
+.footer {
+  height: 417px;
+  background-color: #f5f5f5;
+}
+
+.footer .services {
+  height: 109px;
+  border-bottom: 1px solid #ededed;
+}
+
+.services ul li {
+  float: left;
+  width: 240px;
+  height: 50px;
+  padding: 0 37px;
+  margin: 30px 0;
+  vertical-align: middle;
+}
+
+.services ul li div {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: url(../images/icons.png) no-repeat;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.services ul li:nth-child(1) div {
+  background-position: -253px -3px;
+}
+
+.services ul li:nth-child(2) div {
+  background-position: -254px -53px;
+}
+
+.services ul li:nth-child(3) div {
+  background-position: -257px -106px;
+}
+
+.services ul li:nth-child(4) div {
+  background-position: -258px -157px;
+}
+
+.services ul li:nth-child(5) div {
+  background-position: -258px -208px;
+}
+
+.services ul li h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.services ul li p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.links {
+  height: 187px;
+  width: 100%;
+  padding: 21px 0 24px 50px;
+  border-bottom: 1px solid #ededed;
+}
+
+.links dl {
+  float: left;
+  width: 200px;
+}
+
+.links dl dt {
+  margin-bottom: 13px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.links dl dd {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.help {
+  float: right;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.help h5 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.help p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.about {
+  height: 59px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about ul {
+  display: inline-block;
+  height: 12px;
+}
+
+.about ul li {
+  float: left;
+  height: 12px;
+  line-height: 12px;
+  padding: 0 14px;
+}
+
+.about ul li:not(:first-child) {
+  border-left: 1px solid #999999;
+}
+
+.about ul li a {
+  font-size: 12px;
+}
+
+.address {
+  margin-top: 16px;
+}
+
+.copyright {
+  margin-top: 9px;
+}
